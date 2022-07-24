@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Transformador de Graus</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            Conversor de Graus entre Celsius e Fahrenheit
+        </header>
+
+
+
+    <div >
+       <select name="Temperatura" id="selTemp1">
+        <option value="">Selecione a primeira temperatura</option>
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+       </select>
+
+    </div>
+
+    <div>
+        <input type="number" name="campValorTempo" id="campValorTempo" placeholder="Digite o(s) graus">
+    </div>
+
+    <div>
+        <select name="temperatura" id="selTemp2">
+            <option value="">Selecione a segunda temperatura</option>
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+        </select>
+    </div>
+    
+    <div >
+        <input type="button" value="Vereficar" id="btn" onclick="transform()">
+    </div>
+
+    <div>
+        <span id="span"></span>
+    </div>
+
+</div>
+
+</body>
+</html>
